@@ -9,25 +9,26 @@ abstract class AppConfig {
   static String? _applicationWelcomeMessage;
 
   static String? get applicationWelcomeMessage => _applicationWelcomeMessage;
-  static String _defaultHomeserver = 'matrix.org';
+  static String _defaultHomeserver = '8.140.208.174';
+
 
   static String get defaultHomeserver => _defaultHomeserver;
   static double fontSizeFactor = 1;
   static const Color chatColor = primaryColor;
   static Color? colorSchemeSeed = primaryColor;
   static const double messageFontSize = 16.0;
-  static const bool allowOtherHomeservers = true;
+  static const bool allowOtherHomeservers = false;
   static const bool enableRegistration = true;
   static const Color primaryColor = Color(0xFF5625BA);
   static const Color primaryColorLight = Color(0xFFCCBDEA);
   static const Color secondaryColor = Color(0xFF41a2bc);
   static String _privacyUrl =
-      'https://github.com/krille-chan/fluffychat/blob/main/PRIVACY.md';
+      'https://8.140.208.174/PRIVACY.md';
 
   static const Set<String> defaultReactions = {'👍', '❤️', '😂', '😮', '😢'};
 
   static String get privacyUrl => _privacyUrl;
-  static const String website = 'https://fluffychat.im';
+  static const String website = 'https://8.140.208.174';
   static const String enablePushTutorial =
       'https://github.com/krille-chan/fluffychat/wiki/Push-Notifications-without-Google-Services';
   static const String encryptionTutorial =
@@ -36,7 +37,7 @@ abstract class AppConfig {
       'https://github.com/krille-chan/fluffychat/wiki/How-to-Find-Users-in-FluffyChat';
   static const String appId = 'im.fluffychat.FluffyChat';
   static const String appOpenUrlScheme = 'im.fluffychat';
-  static String _webBaseUrl = 'https://fluffychat.im/web';
+  static String _webBaseUrl = 'https://8.140.208.174/web';
 
   static String get webBaseUrl => _webBaseUrl;
   static const String sourceCodeUrl =
@@ -63,7 +64,7 @@ abstract class AppConfig {
   static bool displayNavigationRail = false;
   static bool experimentalVoip = false;
   static const bool hideTypingUsernames = false;
-  static const String inviteLinkPrefix = 'https://matrix.to/#/';
+  static const String inviteLinkPrefix = 'https://8.140.208.174/#/';
   static const String deepLinkPrefix = 'im.fluffychat://chat/';
   static const String schemePrefix = 'matrix:';
   static const String pushNotificationsChannelId = 'fluffychat_push';
@@ -72,7 +73,7 @@ abstract class AppConfig {
   static const double columnWidth = 360.0;
   static final Uri homeserverList = Uri(
     scheme: 'https',
-    host: 'servers.joinmatrix.org',
+    host: '8.140.208.174',
     path: 'servers.json',
   );
 
