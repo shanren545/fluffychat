@@ -1,9 +1,0 @@
-{
-    "default_server_config": {
-        "m.homeserver": {
-            "base_url": "https://8.140.208.174"
-        }
-    }
-}
-
-
