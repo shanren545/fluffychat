@@ -9,7 +9,7 @@ abstract class AppConfig {
   static String? _applicationWelcomeMessage;
 
   static String? get applicationWelcomeMessage => _applicationWelcomeMessage;
-  static String _defaultHomeserver = '8.140.208.174';
+  static String _defaultHomeserver = 'shanren.ink';
 
 
   static String get defaultHomeserver => _defaultHomeserver;
@@ -23,12 +23,12 @@ abstract class AppConfig {
   static const Color primaryColorLight = Color(0xFFCCBDEA);
   static const Color secondaryColor = Color(0xFF41a2bc);
   static String _privacyUrl =
-      'https://8.140.208.174/PRIVACY.md';
+      'https://shanren.ink/PRIVACY.md';
 
   static const Set<String> defaultReactions = {'👍', '❤️', '😂', '😮', '😢'};
 
   static String get privacyUrl => _privacyUrl;
-  static const String website = 'https://8.140.208.174';
+  static const String website = 'https://shanren.ink';
   static const String enablePushTutorial =
       'https://github.com/krille-chan/fluffychat/wiki/Push-Notifications-without-Google-Services';
   static const String encryptionTutorial =
@@ -37,7 +37,7 @@ abstract class AppConfig {
       'https://github.com/krille-chan/fluffychat/wiki/How-to-Find-Users-in-FluffyChat';
   static const String appId = 'im.fluffychat.FluffyChat';
   static const String appOpenUrlScheme = 'im.fluffychat';
-  static String _webBaseUrl = 'https://8.140.208.174/web';
+  static String _webBaseUrl = 'https://shanren.ink/web';
 
   static String get webBaseUrl => _webBaseUrl;
   static const String sourceCodeUrl =
@@ -64,7 +64,7 @@ abstract class AppConfig {
   static bool displayNavigationRail = false;
   static bool experimentalVoip = false;
   static const bool hideTypingUsernames = false;
-  static const String inviteLinkPrefix = 'https://8.140.208.174/#/';
+  static const String inviteLinkPrefix = 'https://shanren.ink/#/';
   static const String deepLinkPrefix = 'im.fluffychat://chat/';
   static const String schemePrefix = 'matrix:';
   static const String pushNotificationsChannelId = 'fluffychat_push';
@@ -73,7 +73,7 @@ abstract class AppConfig {
   static const double columnWidth = 360.0;
   static final Uri homeserverList = Uri(
     scheme: 'https',
-    host: '8.140.208.174',
+    host: 'shanren.ink',
     path: 'servers.json',
   );
 

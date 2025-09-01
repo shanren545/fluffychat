@@ -46,7 +46,7 @@ enum AppSettings<T> {
   audioRecordingSamplingRate<int>('audioRecordingSamplingRate', 44100),
   pushNotificationsGatewayUrl<String>(
     'pushNotificationsGatewayUrl',
-    'https://8.140.208.174/_matrix/push/v1/notify',
+    'https://shanren.ink/_matrix/push/v1/notify',
   ),
   pushNotificationsPusherFormat<String>(
     'pushNotificationsPusherFormat',
